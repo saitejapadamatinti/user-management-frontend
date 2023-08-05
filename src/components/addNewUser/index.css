@@ -1,0 +1,49 @@
+.modal-body {
+  max-height: 60vh;
+  overflow: auto;
+}
+.form-select {
+  width: 70%;
+}
+
+.add-new-user-button {
+  background-color: #484c7f;
+  border-color: #484c7f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+.employee-cards-div {
+    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  padding-right: 50px;
+  gap: 30px;
+}
+.user-details-card {
+  width: 100%;
+  background-color: #acb0ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.user-details-card h3 {
+  font-size: 24px;
+}
+.user-details-card p {
+  margin: 0px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
